@@ -1,5 +1,5 @@
 # imports:
-from PyQt5.QtWidgets import QApplication, QWidget
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton
 from PyQt5.QtGui import QIcon
 
 
@@ -14,6 +14,16 @@ class Mainwin(QWidget):
         self.setWindowTitle("My Window")
         # setting Icon
         self.setWindowIcon(QIcon("icon.jpg"))
+
+        # adding a label:
+        self.lbl = QLabel(self)
+        self.lbl.setText("Hello, World!")
+        self.lbl.move(20, 20)
+        
+        # adding a button:
+        self.btn = QPushButton(self)
+        self.btn.setText("Click me!")
+        self.btn.setGeometry(100,10, 100,30)
 
         # showing window:
         self.show()
