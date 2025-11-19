@@ -10,3 +10,5 @@
  ## Practice Folder:
  ### 1st "practice_1_random_num" (session 1 to 4)
  You should write a program that it has a button and when you push it a random nuber apears on screen.
+ ### 2nd "parctice_2_login" (session 5 and 6)
+ Write a program that gets name and last name and show it in message box.
